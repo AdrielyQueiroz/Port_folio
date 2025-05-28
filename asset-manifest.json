@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Port_folio/static/css/main.f6088d24.css",
+    "main.js": "/Port_folio/static/js/main.77be6792.js",
+    "static/js/453.1407b060.chunk.js": "/Port_folio/static/js/453.1407b060.chunk.js",
+    "static/media/Gerador.png": "/Port_folio/static/media/Gerador.2515dee344936564919a.png",
+    "static/media/lista.png": "/Port_folio/static/media/lista.a657bd47fe88640d3b74.png",
+    "static/media/projeto_samsung.jpg": "/Port_folio/static/media/projeto_samsung.16471b5f202dd65ef9f0.jpg",
+    "static/media/boxshadow.png": "/Port_folio/static/media/boxshadow.dd6e14a7914589abe959.png",
+    "static/media/form.png": "/Port_folio/static/media/form.47626d7b60efacf638e9.png",
+    "static/media/formulario.png": "/Port_folio/static/media/formulario.0a6ed9fecc1c1f4e9853.png",
+    "static/media/qrcode.png": "/Port_folio/static/media/qrcode.b7efc663c93b9a6e0a5f.png",
+    "index.html": "/Port_folio/index.html",
+    "main.f6088d24.css.map": "/Port_folio/static/css/main.f6088d24.css.map",
+    "main.77be6792.js.map": "/Port_folio/static/js/main.77be6792.js.map",
+    "453.1407b060.chunk.js.map": "/Port_folio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6088d24.css",
+    "static/js/main.77be6792.js"
+  ]
+}
