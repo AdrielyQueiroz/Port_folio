@@ -1,0 +1,178 @@
+.container {
+  display: flex;
+  font-size: 60px;
+  color: rgb(49, 138, 46);
+  justify-content: start;
+}
+
+h3 {
+  color: rgb(65, 65, 65);
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-left: 200px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 50px;
+  animation: fadeIn 1s ease-in-out;
+  margin-bottom: 100px;
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skill {
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+  border-radius: 12px;
+  background: linear-gradient(to top, #740909, #800f0f);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border: 1px solid #ff8b8b;
+  overflow: hidden;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.skill:hover {
+  transform: translateY(-15px);
+  background-color: #a32b2b;
+  opacity: 1;
+}
+
+.skill svg {
+  transition: transform 0.3s ease;
+  color: #fff;
+}
+
+.skill:hover svg {
+  transform: scale(1.1);
+}
+
+.p-skills {
+  font-size: 1rem;
+  margin: 0; 
+  padding: 0;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: #dfdfdf;
+  margin-top: 20px;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  height: auto; 
+}
+
+.p-skills:hover {
+  background-color: transparent;
+}
+
+/* Tablets (até 1024px) */
+@media screen and (max-width: 1024px) {
+  .container {
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .skills-container {
+    gap: 40px;
+  }
+
+  .skill {
+    width: 260px;
+    padding: 25px;
+  }
+
+  .skill svg {
+    font-size: 80px;
+  }
+
+  .p-skills {
+    font-size: 1.1rem;
+  }
+}
+
+/* Celulares grandes (até 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    justify-content: center;
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .skill {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .skill svg {
+    font-size: 70px;
+  }
+
+  .p-skills {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+/* Celulares pequenos (até 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .skill {
+    width: 90%;
+    padding: 1px;
+  }
+
+  .skill svg {
+    font-size: 60px;
+  }
+
+  .p-skills {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 90%;
+  }
+}
