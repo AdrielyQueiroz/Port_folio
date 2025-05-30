@@ -25,7 +25,6 @@ const Navbar = () => {
         <li><a href="#about">Sobre</a></li>
         <li><a href="#skills">Habilidades</a></li>
         <li><a href="#projects">Projetos</a></li>
-        <li><a href="/cv_adriely.pdf">Baixar CV</a></li>
       </ul>
     </nav>
   );
