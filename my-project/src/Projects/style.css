@@ -1,0 +1,175 @@
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: #e6e6e6; */
+  background: #d6d5d5;
+  padding: 50px 20px;
+  padding-bottom: 100px;
+}
+
+h4 {
+  font-size: 2.2rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+.product-image {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.02);
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: opacity 0.3s ease;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 2px solid rgb(196, 33, 33);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.product-image:hover .img {
+  opacity: 0.4;
+}
+
+.product-image:hover .overlay {
+  opacity: 1;
+}
+
+.icons {
+  font-size: 40px;
+  color: white;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.overlay a:hover .icons {
+  transform: scale(1.2);
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.arrow {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 1.8rem;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.arrow:hover {
+  background-color: rgb(196, 33, 33);
+  color: white;
+  transform: scale(1.1);
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.right {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-track {
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .product-image {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+  }
+
+  .arrow {
+    font-size: 1.3rem;
+    padding: 6px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .overlay .text {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .icons {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product-image {
+    height: 200px;
+    width: 1000px;
+  }
+
+  .arrow {
+    font-size: 1.2rem;
+    padding: 5px 8px;
+  }
+
+  .icons {
+    font-size: 24px;
+  }
+
+  .overlay .text {
+    font-size: 12.5px;
+  }
+}
+
+
+
+
+
+
