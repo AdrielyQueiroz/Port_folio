@@ -43,7 +43,7 @@ const projects = [
   {
     img: formulario,
     title: "Formulário Avaliativo",
-    paragraphy: "Formulário Avaliativo Multistep (de várias etapas) inicializado com React + Vite, onde o usuário consegue retroceder e avançar mantendo seus dados.",
+    paragraphy: "Formulário Avaliativo Multistep inicializado com React, onde o usuário consegue retroceder e avançar mantendo seus dados.",
     link: "https://github.com/AdrielyQueiroz/form_avalia"
   }
 ];
