@@ -85,14 +85,14 @@ hr {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .home-section {
-    background-size: 100%; 
+    background-size: 80%; 
     justify-content: center;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 30px;
     transform: translateX(0);
-    margin-right: 60px;
+    margin-left: -100px;
   }
 
   .subtitle {
@@ -102,7 +102,7 @@ hr {
   }
 
   hr {
-    width: 90%;
+    width: 50%;
     margin-top: -200px;
   }
 }
