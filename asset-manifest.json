@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Port_folio/static/css/main.a99f0159.css",
-    "main.js": "/Port_folio/static/js/main.dddee795.js",
+    "main.css": "/Port_folio/static/css/main.f99bb1c3.css",
+    "main.js": "/Port_folio/static/js/main.a8772bce.js",
     "static/js/453.1407b060.chunk.js": "/Port_folio/static/js/453.1407b060.chunk.js",
     "static/media/Gerador.png": "/Port_folio/static/media/Gerador.2515dee344936564919a.png",
     "static/media/lista.png": "/Port_folio/static/media/lista.a657bd47fe88640d3b74.png",
+    "static/media/eu.jpeg": "/Port_folio/static/media/eu.338ed1aa1eccad9b5333.jpeg",
     "static/media/projeto_samsung.jpg": "/Port_folio/static/media/projeto_samsung.16471b5f202dd65ef9f0.jpg",
     "static/media/boxshadow.png": "/Port_folio/static/media/boxshadow.dd6e14a7914589abe959.png",
     "static/media/formulario.png": "/Port_folio/static/media/formulario.0a6ed9fecc1c1f4e9853.png",
     "static/media/qrcode.png": "/Port_folio/static/media/qrcode.b7efc663c93b9a6e0a5f.png",
     "index.html": "/Port_folio/index.html",
-    "main.a99f0159.css.map": "/Port_folio/static/css/main.a99f0159.css.map",
-    "main.dddee795.js.map": "/Port_folio/static/js/main.dddee795.js.map",
+    "main.f99bb1c3.css.map": "/Port_folio/static/css/main.f99bb1c3.css.map",
+    "main.a8772bce.js.map": "/Port_folio/static/js/main.a8772bce.js.map",
     "453.1407b060.chunk.js.map": "/Port_folio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a99f0159.css",
-    "static/js/main.dddee795.js"
+    "static/css/main.f99bb1c3.css",
+    "static/js/main.a8772bce.js"
   ]
 }
